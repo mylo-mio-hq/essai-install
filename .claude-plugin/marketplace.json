@@ -1,0 +1,1 @@
+{"name":"essai-install","owner":{"name":"Macrocosm SRL","email":"damiano@macrocosm.be"},"plugins":[{"name":"essai-bonjour","source":"./plugins/essai-bonjour","description":"Plugin de test du lien d'installation Mylo Mio.","version":"0.0.1"}]}
