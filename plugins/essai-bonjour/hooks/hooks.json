@@ -1,0 +1,14 @@
+{
+  "description": "Essai T1 Mylo Mio : un hook mcp_tool peut-il appeler un connecteur du compte dans Cowork cloud ?",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          { "type": "command", "command": "echo 'Essai T1 : hook command actif (repere TILLEUL-T1).'" },
+          { "type": "mcp_tool", "server": "Google_Calendar", "tool": "list_calendars", "input": {} },
+          { "type": "mcp_tool", "server": "Serveur_Inexistant_T1", "tool": "rien", "input": {} }
+        ]
+      }
+    ]
+  }
+}
